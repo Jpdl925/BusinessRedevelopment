@@ -1,6 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=ABeeZee:100);
 body{
     background-color: #545454de;
+    background-image: url(../media/indexTop.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 75vw 90vh;
+
 }
-.indexTop{
-    
+.navTxt{
+    color:#FFFFFF;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'ABeeZee', sans-serif;
+}
+.mainNav{
+    background-color: rgba(39, 38, 38, .9) ;
+    position:absolute;
+    width: 100%;
+    padding-inline: 200px;
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+.mainNav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.mainLogo{
+    width: 10rem;
 }
