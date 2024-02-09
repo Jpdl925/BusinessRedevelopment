@@ -1,23 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=ABeeZee:100);
 body{
     background-color: #545454de;
-    background-image: url(../media/indexTop.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 75vw 90vh;
-
 }
 .navTxt{
     color:#FFFFFF;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 100;
     font-family: 'ABeeZee', sans-serif;
 }
 .mainNav{
+    display: flex;
+    justify-content: center;
     background-color: rgba(39, 38, 38, .9) ;
     position:absolute;
     width: 100%;
-    padding-inline: 200px;
+    padding-inline: 175px;
     padding-top:10px;
     padding-bottom: 15px;
 }
@@ -29,4 +26,18 @@ body{
 }
 .mainLogo{
     width: 10rem;
+
+}
+.indexTop{
+    background-color: black;
+    width:100%;
+    height:900px;
+    object-fit:contain;
+}
+.greenLogo{
+    display:flex;
+    justify-content: center;
+    position:absolute;
+    
+    
 }
