@@ -1,43 +1,53 @@
 @import url(https://fonts.googleapis.com/css?family=ABeeZee:100);
 body{
     background-color: #545454de;
+    background-image: url(../media/indexTop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 975px;
 }
-.navTxt{
-    color:#FFFFFF;
-    font-size: 25px;
-    font-weight: 100;
-    font-family: 'ABeeZee', sans-serif;
-}
-.mainNav{
-    display: flex;
-    justify-content: center;
-    background-color: rgba(39, 38, 38, .9) ;
-    position:absolute;
-    width: 100%;
-    padding-inline: 175px;
-    padding-top:10px;
-    padding-bottom: 15px;
-}
-.mainNav ul{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
+nav{
+    background-color: hsla(0, 1%, 15%, 0.75);
 }
 .mainLogo{
-    width: 10rem;
-
+    width: 20%;
 }
-.indexTop{
-    background-color: black;
-    width:100%;
-    height:900px;
-    object-fit:contain;
+.nav-item{
+    display: flex;
+    align-items: center;
 }
-.greenLogo{
+.active{
+    color:white;
+}
+.collapse{
     display:flex;
     justify-content: center;
-    position:absolute;
+}
+.navbar-nav{
+    display:flex;
+    justify-content: center;
+    justify-self: center;
+}
+.greenLogo{
+    width: 25%;
+    margin-top: 710px;
     
-    
+}
+.mainTxt{
+    color: white;
+    font-family:'ABeeZee, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 55px;
+    margin-inline: 15vw;
+}
+.lowerImg{
+    margin-top: 3vh;
+    display:flex;
+    justify-content: center;
+    vertical-align: top;
+}
+.test{
+    width: 100px;
+}
+p{
+    vertical-align: text-bottom;
 }
