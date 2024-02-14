@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=ABeeZee:100);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 body{
     background-color: #545454de;
     background-image: url(../media/indexTop.jpg);
@@ -19,9 +20,8 @@ nav{
 
 .navItem{
     font-family:'ABeeZee, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* margin-inline: 200px; */
     color:white;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     width: 25%;
 }
@@ -30,7 +30,7 @@ a{
 }
 .mainLogo{
     display: flex;
-    width: 6%;
+    width: 6.5vw;
 }
 .tImg{
     margin-left: -10px;
@@ -44,11 +44,25 @@ a{
 .navbar-toggler{
     width: 100%;
     display:flex;
+    justify-content: space-between;
+}
+.navbar-toggler div{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-toggler h1{
+    display:flex;
+    align-self: center;
+    color:white;
+    font-family: 'Inter, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    margin-left:2vw;
 }
 button{
     display: flex;
     align-self: center;
-    justify-self: center;
+    justify-self: self-end;
     background: transparent;
     border: none;
 }
@@ -58,7 +72,7 @@ button{
 .collapsedLogo{
     display: flex;
     justify-content: left;
-    width: 10%;
+    width: 15%;
 }
 .greenLogo{
     width: 25%;
