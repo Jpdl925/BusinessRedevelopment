@@ -11,41 +11,34 @@
 </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <!-- Logo -->
-            <div class="navbar-brand">
-                <img src="/media/logo-min.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
-                <span class="d-lg-none">Valley Brew</span> <!-- Visible on small screens -->
-            </div>
-            <!-- Hamburger Icon -->
-            <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Navbar Links -->
-            <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Menu</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Our Story</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="smallNav">
+            <img class="collapsedLogo" href="#"src="/media/logo-min.png">
+            <h1>Valley Brew</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-    </nav>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <a href="#" class="navItem">HOME</a>
+            <br>
+            <a href="#" class="navItem">MENU</a>
+            <br>
+            <img href="#" class="mainLogo" src="/media/logo-min.png">
+            <a href="#" class="navItem">OUR STORY</a>
+            <br>
+            <a href="#" class="navItem">CONTACT</a>
+      </div>
+      </nav>
       <!-- end -->
 
-<!-- start -->
+      
+
+
+
+
+
+<!-- Menu -->
 <div class="card text-bg-dark">
     <img src="/media/image 9.png" class="card-img" alt="calamari">
     <img id="menu" src="/media/Black Modern Food Menu Portrait 1.png" alt="">
@@ -60,14 +53,14 @@
 <div class="container">
     <div class="row">
       <div class="col text-center">
-        <div class="bg-black px-3 py-2 d-inline-block"> <!-- Adjusted padding and added d-inline-block -->
-          <h2 class="text-white">SIGNATURE BEERS</h2> <!-- White text -->
+        <div class="bg-black px-3 py-2 d-inline-block"> 
+          <h2 class="text-white">SIGNATURE BEERS</h2> 
         </div>
       </div>
     </div>
     
     <!-- Top row -->
-    <div class="row row-cols-1 row-cols-md-4 g-4 mt-4"> <!-- Added mt-4 for top row spacing -->
+    <div class="row row-cols-1 row-cols-md-4 g-4 mt-4"> 
       <div class="col">
         <div class="card">
           <img src="/media/image 27.png" class="card-img-top" alt="...">
@@ -91,7 +84,7 @@
     </div>
     
     <!-- Bottom row -->
-    <div class="row row-cols-1 row-cols-md-4 g-4 mt-4"> <!-- Added mt-4 for bottom row spacing -->
+    <div class="row row-cols-1 row-cols-md-4 g-4 mt-4"> 
       <div class="col">
         <div class="card">
           <img src="/media/image 32.png" class="card-img-top" alt="...">
@@ -119,11 +112,11 @@
 <footer class="footer mt-auto py-2  text-white">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 font">
                 <p>&copy; 2024 Valley Brewing Company</p>
                 <p>157 W Adams St. Stockton, CA 95204</p>
             </div>
-            <div class="col-lg-6 text-lg-end">
+            <div class="font col-lg-6 text-lg-end">
                 <p>(209) 464-2739</p>
                 <p> 
                 
