@@ -6,6 +6,9 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw 975px;
 }
+
+
+/* ----------------NAVBAR------------------------ */
 nav{
     background-color: hsla(0, 1%, 15%, 0.75);
     width: 100%;
@@ -17,7 +20,6 @@ nav{
     padding-bottom: 15px;
     padding-inline:0;
 }
-
 .navItem{
     font-family:'ABeeZee, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
@@ -32,53 +34,69 @@ a{
     display: flex;
     width: 6.5vw;
 }
-.tImg{
-    margin-left: -10px;
-    margin-right: -30px;
-    width: 3em;
-}
 .navbar{
     display:flex;
     justify-content: right;
 }
-.navbar-toggler{
+.smallNav{
     width: 100%;
     display:flex;
-    justify-content: space-between;
 }
-.navbar-toggler div{
-    display: flex;
-    flex-direction: row;
-}
-.navbar-toggler h1{
+.smallNav h1{
+    width: 25%;
     display:flex;
     align-self: center;
+    text-align: left;
     color:white;
     font-family: 'Inter, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     font-weight: 100;
     margin-left:2vw;
 }
-button{
+.smallNav button{
+    width: 50%;
     display: flex;
+    justify-content: right;
     align-self: center;
-    justify-self: self-end;
-    background: transparent;
-    border: none;
 }
+@media (min-width: 992px){
+    .smallNav {
+        display: none;
+    }
+    }
+@media (max-width:992px){
+        .mainLogo{
+            display: none;
+        }
+    }
 .navbar-toggler-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
 .collapsedLogo{
-    display: flex;
-    justify-content: left;
-    width: 15%;
+        display: flex;
+        justify-content: left;
+        width: 15%;
+    }
+.navbar-collapse{
+        margin-top: 20px;
+        text-align: center;
+    }
+/* ----------------END OF NAVBAR--------------- */
+
+
+
+
+.tImg{
+    margin-left: -10px;
+    margin-right: -30px;
+    width: 3em;
 }
 .greenLogo{
     width: 25%;
     margin-top: 710px;
     
 }
+
 .mainTxt{
     color: white;
     font-family:'ABeeZee, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
