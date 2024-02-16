@@ -1,5 +1,13 @@
+/* FONTS  */
+/* Font for text on page */
 @import url(https://fonts.googleapis.com/css?family=ABeeZee:100);
+/* Font for smallnavbar txt */
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+/* END OF FONTS */
+
+
+/* Background color and image set for Body */
 body{
     background-color: #545454de;
     background-image: url(../media/indexTop.jpg);
@@ -9,6 +17,7 @@ body{
 
 
 /* ----------------NAVBAR------------------------ */
+/* Span of navbar and color, also alignment */
 nav{
     background-color: hsla(0, 1%, 15%, 0.75);
     width: 100%;
@@ -20,6 +29,7 @@ nav{
     padding-bottom: 15px;
     padding-inline:0;
 }
+/* All text inside the navbar */
 .navItem{
     font-family:'ABeeZee, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
@@ -27,21 +37,26 @@ nav{
     text-align: center;
     width: 25%;
 }
+/* Active links text decoration set to none for no lines underneath */
 a{
     text-decoration:none;
 }
+/* Mainlogo of page size adjust */
 .mainLogo{
     display: flex;
     width: 6.5vw;
 }
-.navbar{
+/* navbar testing*/
+/* .navbar{
     display:flex;
     justify-content: right;
-}
+} */
+/* Setting available space for small navbar */
 .smallNav{
     width: 100%;
     display:flex;
 }
+/* Adjusting small navbar h1 txt styling */
 .smallNav h1{
     width: 25%;
     display:flex;
@@ -53,22 +68,97 @@ a{
     font-weight: 100;
     margin-left:2vw;
 }
+/* Adjusting button for dropdown menu of small navbar */
 .smallNav button{
     width: 50%;
     display: flex;
     justify-content: right;
     align-self: center;
 }
-@media (min-width: 992px){
+
+    /* Small navbar is hidden until a certain size is reached */
+    @media (min-width: 992px){
     .smallNav {
         display: none;
     }
-    
     }
-@media (max-width:991px){
+    @media (max-width:991px){
         .mainLogo{
             display: none;
-        }
+    }
+    }
+
+    /* Switched toggler icon of small Navbar to white */
+.navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    /* Smaller version of mainlogo set for small Navbar */
+.collapsedLogo{
+        display: flex;
+        justify-content: left;
+        width: 15%;
+    }
+
+    /* Adjusting lines shown in collapsed menu */
+.navbar-collapse{
+        margin-top: 20px;
+        text-align: center;
+    }
+/* ----------------END OF NAVBAR--------------- */
+
+
+
+
+/* Cursive t image shown on first text */
+.tImg{
+    margin-left: -10px;
+    margin-right: -30px;
+    width: 3em;
+}
+/* Green logo shown in middle of page */
+.greenLogo{
+    width: 25%;
+    margin-top: 710px;
+    
+}
+
+/* First paragraph text styling */
+.mainTxt{
+    color: white;
+    font-family:'ABeeZee, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 55px;
+    margin-inline: 15vw;
+}
+/* Three lower images shown on bottom of page styling */
+.lowerImg{
+    margin-bottom: 0;
+    margin-top: 5vh;
+    display:flex;
+    justify-content: center;
+}
+/* Bottom text below the three lower images */
+.lowerTxt{
+    font-family:'ABeeZee, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin-top: -30px;
+    font-size: x-large;
+    text-align: center;
+    white-space: pre-line;
+    color:white;
+}
+/* Hours image styling at bottom of page */
+.hoursImg{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding-inline: 10vw;
+}
+
+
+    /* Adjusting size of content on page when a smaller size is reached */
+    @media (max-width:991px){
         body{
             background-size: 100vw 450px;
         }
@@ -96,59 +186,3 @@ a{
             margin-left: -10px !important;
         }
     }
-.navbar-toggler-icon{
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
-.collapsedLogo{
-        display: flex;
-        justify-content: left;
-        width: 15%;
-    }
-.navbar-collapse{
-        margin-top: 20px;
-        text-align: center;
-    }
-/* ----------------END OF NAVBAR--------------- */
-
-
-
-
-.tImg{
-    margin-left: -10px;
-    margin-right: -30px;
-    width: 3em;
-}
-.greenLogo{
-    width: 25%;
-    margin-top: 710px;
-    
-}
-
-.mainTxt{
-    color: white;
-    font-family:'ABeeZee, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-size: 55px;
-    margin-inline: 15vw;
-}
-.lowerImg{
-    margin-bottom: 0;
-    margin-top: 5vh;
-    display:flex;
-    justify-content: center;
-}
-.lowerTxt{
-    font-family:'ABeeZee, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    margin-top: -30px;
-    font-size: x-large;
-    text-align: center;
-    white-space: pre-line;
-    color:white;
-}
-.hoursImg{
-    background-color: black;
-    width: 100%;
-    height: 100vh;
-    padding-inline: 10vw;
-}
