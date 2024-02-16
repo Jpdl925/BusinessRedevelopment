@@ -217,10 +217,11 @@ a{
   }
   .kellieTxt{
     display:flex;
-    align-content: space-around;
+    align-self: center;
     flex-direction: column;
     color:white;
     font-size: x-large;
     margin-left: 20px;
     text-align:left;
+    margin-bottom: 0;
   }
