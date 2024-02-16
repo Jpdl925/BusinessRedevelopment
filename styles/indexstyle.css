@@ -63,10 +63,37 @@ a{
     .smallNav {
         display: none;
     }
+    
     }
-@media (max-width:992px){
+@media (max-width:991px){
         .mainLogo{
             display: none;
+        }
+        body{
+            background-size: 100vw 450px;
+        }
+        .greenLogo{
+            width: 50% !important;
+            margin-top: 150px !important;
+        }
+        .mainTxt{
+            font-size: 1.5rem !important;
+            margin-inline: 5vw !important;
+        }
+        .hoursImg{
+            height: 35vh !important;
+            padding: 0 !important;
+        }
+        .lowerImg img{
+            width: 25vw;
+        }
+        .lowerTxt{
+            font-size:1rem !important;
+            margin-top: 0px !important;
+        }
+        .tImg{
+            margin-right: -5px !important;
+            margin-left: -10px !important;
         }
     }
 .navbar-toggler-icon{
