@@ -9,7 +9,7 @@
 
 /* Background color and image set for Body */
 body{
-    background-color: #545454de;
+    background-color: #545454;
     background-image: url(../media/indexTop.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 975px;
@@ -184,6 +184,9 @@ a{
             margin-right: -5px !important;
             margin-left: -10px !important;
         }
+        .font{
+            text-align: center;
+        }
     }
 
     /* Adjusting hours logo on smaller devices */
@@ -192,3 +195,25 @@ a{
         height: 35vh !important;
     }
     }
+
+
+    /* Footer */
+    
+    footer{
+        background-color: #272626;
+    }
+    .logos{
+        width: 30px; 
+        height: auto; 
+        margin-right: 10px; 
+    }
+    .insta{
+        width: 25px; 
+        height: auto; 
+        margin-right: 10px; 
+    }
+    .font{
+        font-family: 'Abeezee', sans-serif;
+    }
+
+    /* End of Footer */
