@@ -7,7 +7,6 @@
 @import url(https://fonts.googleapis.com/css?family=ABeeZee:100);
 
 
-
 body{
     background-color: #545454;
     background-image: url('../Media/image\ 25.png');
@@ -113,7 +112,7 @@ a{
   }
 
 .ourStoryImg{
-    width: 100vw;
+    width: 100%;
     height: 60vh;
     margin-top: 750px;
   }
@@ -131,6 +130,9 @@ a{
     padding-inline: 25%;
     text-align: left;
   }
+  .paragraph h3{
+    font-size:1.1vw;
+  }
 
   .ownerImgs{
     width: 100%;
@@ -138,12 +140,13 @@ a{
     object-fit: none;
   }
   .outsideImg{
-    width: 100vw;
+    width: 100%;
   }
 
   .Vimg{
-    margin-left: -100px;
-    margin-right:-80px
+    width: 6vw;
+    margin-left: -50px;
+    margin-right:-40px
   }
   .ownerImgs{
     height: 285px;
@@ -157,47 +160,69 @@ a{
     color: white;
     text-align: center;
   }
-  .kellieTxt{
+  .ownerTxt {
     display:flex;
     align-self: center;
     flex-direction: column;
     color:white;
-    font-size: x-large;
+    font-size: 1.7vw;
     margin-inline:20px;
     text-align:left;
   }
-  .kellieTxt p{
+  .ownerTxt p{
+    font-size: 1.7vw;
     margin-block:0;
   }
 
   .jazzRow{
     display: flex;
-    width: 100vw;
     flex-direction: row;
   }
   .jazzPic{
-    width: 50vw;
+    width: 50%;
+    height: 500px;
   }
   .jazzInfo{
-   width: 50vw;
+   width: 50%;
    margin-left: .5vw;
   }
   .jazzTitle{
     text-align: center;
     color: white;
-    font-size:75px;
+    font-size: 3vw;
     background-color: #131313;
     margin-inline: 2vw;
     padding-block: 2vh;
   }
   .tImg{
-    margin-right: -50px;
-    margin-left: -60px;
+    margin-right: -2vw;
+    margin-left: -1vw;
   }
   .jazzTxt{
     margin-top: 3vh;
     color: white;
-    font-size: 40px ;
+    font-size: 1.5vw ;
     text-align: left;
     margin-inline: 3vw;
   }
+
+      /* Footer */
+    
+      footer{
+        background-color: #272626;
+    }
+    .logos{
+        width: 30px; 
+        height: auto; 
+        margin-right: 10px; 
+    }
+    .insta{
+        width: 25px; 
+        height: auto; 
+        margin-right: 10px; 
+    }
+    .font{
+        font-family: 'Abeezee', sans-serif;
+    }
+
+    /* End of Footer */
