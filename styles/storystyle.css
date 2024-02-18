@@ -9,7 +9,7 @@
 
 
 body{
-    background-color: #545454de;
+    background-color: #545454;
     background-image: url('../Media/image\ 25.png');
     background-repeat: no-repeat;
     background-size: 100vw 975px;
@@ -105,8 +105,6 @@ a{
     }
 /* ----------------END OF NAVBAR--------------- */
 
-
-
 .abeezee-regular {
     font-family: "ABeeZee", sans-serif;
     font-weight: 100;
@@ -120,38 +118,18 @@ a{
     margin-top: 750px;
   }
 
-  .story{
-    background-color: rgba(27, 27, 27, 0.712);
-  }
-
- 
-
-  .Storyimg{
-
-    background-image: url('../media/valley\ brew\ pic.jpg');
-    justify-content: center;
-    align-items:center;
-    position: relative;
-    height: 100vh;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-
-  }
-
   .middleTxt{
     display: flex;
     align-items: center;
     color:white;
     height: 40vh;
+    padding-block: 23vh;
+    background-color: #1f1f1f;
   }
 
   .paragraph{
     padding-inline: 25%;
     text-align: left;
-
   }
 
   .ownerImgs{
@@ -159,61 +137,25 @@ a{
     height: 18vh;
     object-fit: none;
   }
-
-  .eric{
-    justify-content: right;
-
-
-  }
-
-  .h6{
-    text-align: right;
-    align-items:right;
-
-  }
-
-  .Jazzpic{
-    justify-content: left;
-
-
-  }
-
-  .jazz{
-    background-color: #3d3c3c;
-
-  }
-
-  .jazzinfo{
-    padding-left: 4%;
-    padding-right: 4%;
-
-  }
-
-  .Timg{
-    margin-right: -15px;
+  .outsideImg{
+    width: 100vw;
   }
 
   .Vimg{
     margin-left: -100px;
     margin-right:-80px
-
   }
-
-  .jazzclub{
-    height: 70px;
+  .ownerImgs{
+    height: 285px;
   }
-
-
-  .namePic{
-
-  }
-  .kellie{
+  .ownerCol{
     display: flex;
     justify-content: center; 
     margin-block: 20px;
   }
-  .namePic h4{
+  .row h4{
     color: white;
+    text-align: center;
   }
   .kellieTxt{
     display:flex;
@@ -221,7 +163,41 @@ a{
     flex-direction: column;
     color:white;
     font-size: x-large;
-    margin-left: 20px;
+    margin-inline:20px;
     text-align:left;
-    margin-bottom: 0;
+  }
+  .kellieTxt p{
+    margin-block:0;
+  }
+
+  .jazzRow{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+  }
+  .jazzPic{
+    width: 50vw;
+  }
+  .jazzInfo{
+   width: 50vw;
+   margin-left: .5vw;
+  }
+  .jazzTitle{
+    text-align: center;
+    color: white;
+    font-size:75px;
+    background-color: #131313;
+    margin-inline: 2vw;
+    padding-block: 2vh;
+  }
+  .tImg{
+    margin-right: -50px;
+    margin-left: -60px;
+  }
+  .jazzTxt{
+    margin-top: 3vh;
+    color: white;
+    font-size: 40px ;
+    text-align: left;
+    margin-inline: 3vw;
   }
