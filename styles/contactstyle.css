@@ -1,11 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=ABeeZee:100);
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+
 body{
-    background-color: #545454de;
+    background-color: #545454;
     background-image: url(../media/contactTop.png);
     background-repeat: no-repeat;
     background-size: 100vw 975px;
 }
+/* ----------------NAVBAR------------------------ */
+/* Span of navbar and color, also alignment */
 nav{
     background-color: hsla(0, 1%, 15%, 0.75);
     width: 100%;
@@ -17,7 +21,7 @@ nav{
     padding-bottom: 15px;
     padding-inline:0;
 }
-
+/* All text inside the navbar */
 .navItem{
     font-family:'ABeeZee, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:white;
@@ -25,10 +29,72 @@ nav{
     text-align: center;
     width: 25%;
 }
+/* Active links text decoration set to none for no lines underneath */
 a{
     text-decoration:none;
 }
+/* Mainlogo of page size adjust */
 .mainLogo{
     display: flex;
     width: 6.5vw;
 }
+/* navbar testing*/
+/* .navbar{
+    display:flex;
+    justify-content: right;
+} */
+/* Setting available space for small navbar */
+.smallNav{
+    width: 100%;
+    display:flex;
+}
+/* Adjusting small navbar h1 txt styling */
+.smallNav h1{
+    width: 25%;
+    display:flex;
+    align-self: center;
+    text-align: left;
+    color:white;
+    font-family: 'Inter, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    margin-left:2vw;
+}
+/* Adjusting button for dropdown menu of small navbar */
+.smallNav button{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-self: center;
+}
+
+    /* Small navbar is hidden until a certain size is reached */
+    @media (min-width: 992px){
+    .smallNav {
+        display: none;
+    }
+    }
+    @media (max-width:991px){
+        .mainLogo{
+            display: none;
+    }
+    }
+
+    /* Switched toggler icon of small Navbar to white */
+.navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    /* Smaller version of mainlogo set for small Navbar */
+.collapsedLogo{
+        display: flex;
+        justify-content: left;
+        width: 15%;
+    }
+
+    /* Adjusting lines shown in collapsed menu */
+.navbar-collapse{
+        margin-top: 20px;
+        text-align: center;
+    }
+/* ----------------END OF NAVBAR--------------- */
