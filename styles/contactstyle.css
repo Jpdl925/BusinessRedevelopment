@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 
 
+
 body{
     background-color: #545454;
     background-image: url(../media/contactTop.png);
@@ -98,3 +99,123 @@ a{
         text-align: center;
     }
 /* ----------------END OF NAVBAR--------------- */
+
+.topRow{
+    margin-top:850px;
+    display: flex;
+    flex-direction: row;
+}
+.topCol{
+    width: 50%;
+    flex-direction: column;
+}
+.contactTitle{
+    text-align: center;
+    color: white;
+    font-size: 5.5vw;
+    background-color: #131313;
+    margin-inline: 2vw;
+    padding-block: 5vh;
+}
+.contactTxt{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.5vw ;
+    text-align: left;
+    margin-inline: 3vw;
+}
+
+label,input{
+    font-size: 2.2vw;
+    margin-left: 5vw;
+    color: white;
+    display: block;
+}
+input{
+    width: 42vw;
+}
+label.req::after{
+    color: red;
+    content: '*';
+}
+label{
+    width: max-content;
+    margin-bottom: .5vh;
+}
+input#message{
+    height: 15vh;
+}
+.btnRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btnRow button{
+    font-weight: 450;
+    padding-inline: 1.5vw;
+    margin-top: 2vh;
+    font-size: 2.5vw;
+    margin-right: 3vw;
+}
+.btnRow h2{
+    margin-top:.5vh;
+    margin-left: 5vw;
+    color: red;
+}
+.banquetSec{
+    margin-top: 8vh;
+    margin-inline: 2.5vw;
+    color: white;
+    background-color: black;
+    padding-bottom: 5vh;
+}
+.banquetSec h1{
+    text-align: center;
+    font-size: 5vw;
+}
+.banquetSec p{
+    font-size: 2.1vw;
+    margin-inline: 15%;
+    margin-bottom: 0;
+}
+.banquetSec h2{
+    font-size: 2vw;
+    text-align: left;
+    margin-inline: 15%;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* Footer */
+    
+      footer{
+        background-color: #272626;
+    }
+    .logos{
+        width: 30px; 
+        height: auto; 
+        margin-right: 10px; 
+    }
+    .insta{
+        width: 25px; 
+        height: auto; 
+        margin-right: 10px; 
+    }
+    .font{
+        font-family: 'Abeezee', sans-serif;
+    }
+
+    /* End of Footer */
