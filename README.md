@@ -6,4 +6,4 @@
 
 
 //Peer review by: Neo
-//Comments:  probably have the image clickable and redirect to the home page. Fix tab text on our story contact page. Fix image sizing
+//Comments:  probably have the image clickable and redirect to the home page. Fix tab text on our story contact page. Fix image sizing. add the footer on the home page
