@@ -5,5 +5,5 @@
 // 2/19/24 everything uploaded to github on main branch
 
 
-//Peer review by:
-//Comments:  
+//Peer review by: Neo
+//Comments:  probably have the image clickable and redirect to the home page. Fix tab text on our story contact page. Fix image sizing
